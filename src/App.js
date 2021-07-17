@@ -46,7 +46,7 @@ function App() {
               <li className="photo-card" key={photo.id}>
                 <span className="photo-title">{photo.title}</span>
                 <span>
-                  <img src={photo.thumbnailUrl} />
+                  <img alt={photo.title} src={photo.thumbnailUrl} />
                 </span>
               </li>
             ))}
